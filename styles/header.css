@@ -23,7 +23,7 @@ header {
     border: none;
     border-radius: 0;
     border-bottom: 1px solid;
-    opacity: 20%;
+    max-width: 150px;
 }
 
 .lang__select {
