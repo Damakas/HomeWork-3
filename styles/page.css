@@ -1,0 +1,73 @@
+.hero {
+    min-height: 750px;
+    background: url(../images/background_hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+}
+
+.hero__inner {
+    justify-content: space-between;
+}
+
+.hero__inner-left {
+    color: #fafafa;
+    font-family: "PT Sans", sans-serif;
+    padding: 70px 0
+}
+
+.hero__inner-left h1 {
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 70px;
+}
+
+.hero__inner-left p {
+    max-width: 325px;
+    height: 70px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 40px 0 60px;
+}
+
+.hero__inner-left button {
+    background: none;
+    border: none;
+    color: #fafafa;
+}
+
+.hero__inner-right {
+    font-family: "PT Sans", sans-serif;
+}
+
+
+
+.hero__inner-right-card {
+    width: 15em;
+    min-height: 13em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    padding: 25px 30px;
+    background-color: #5DB7DE;
+    color: #fafafa;
+    border-radius: 20px;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.hero__inner-right-card h1 {
+    font-size: 13px;
+    font-weight: 900;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.hero__inner-right-card a {
+    text-decoration: none;
+    color: #fafafa;
+}
