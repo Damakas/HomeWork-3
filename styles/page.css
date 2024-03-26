@@ -1,3 +1,8 @@
+body {
+    font-family: "PT Sans", sans-serif;
+}
+
+/*Hero*/
 .hero {
     min-height: 750px;
     background: url(../images/background_hero.png);
@@ -9,6 +14,7 @@
 
 .hero__inner {
     justify-content: space-between;
+
 }
 
 .hero__inner-left {
@@ -42,8 +48,6 @@
     font-family: "PT Sans", sans-serif;
 }
 
-
-
 .hero__inner-right-card {
     width: 15em;
     min-height: 13em;
@@ -71,3 +75,231 @@
     text-decoration: none;
     color: #fafafa;
 }
+
+/*Hero*/
+
+/* Middle__Service */
+.middle__service {
+    padding: 100px 0;
+}
+
+.middle__service-primary h1 {
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 60px;
+}
+
+.middle__service-primary-docs {
+    max-width: 305px;
+    padding: 20px 0;
+}
+
+.middle__service-primary-docs a {
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    border-bottom: 1px #3D348B dashed;
+    color: #3D348B;
+}
+
+.middle__service-second-card {
+    width: 21em;
+    min-height: 11em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    padding: 25px 30px;
+    background-color: #3D348B;
+    color: #fafafa;
+    border-radius: 20px;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.middle__service-second-card h1 {
+    font-size: 13px;
+    font-weight: 900;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.middle__service-second-card a {
+    text-decoration: none;
+    color: #fafafa;
+}
+
+/* Middle__Service */
+
+
+/* About */
+.about {
+    padding-bottom: 110px;
+}
+
+.about__title h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 55px;
+    padding: 100px 0 60px;
+}
+
+.about__primary {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+.about__second {
+    padding-left: 80px;
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.about__second-card {
+    max-width: 28em;
+    min-height: 9em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    padding: 30px 35px;
+    background-color: #5DB7DE;
+    color: #fafafa;
+    border-radius: 20px;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.about__second-card h1 {
+    font-size: 13px;
+    font-weight: 900;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.about__second-card a {
+    text-decoration: none;
+    color: #fafafa;
+}
+
+/* About */
+/* News Page */
+.news__page {
+    padding-top: 150px;
+}
+
+.news__primary {
+    padding-bottom: 60px;
+}
+
+.news__primary-tittle {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: left;
+}
+
+.news__btn button {
+    color: #3D348B;
+    border: none;
+    background-color: white;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    text-align: left;
+}
+
+
+.news__second-card-desc {
+    padding: 25px 0 0;
+    max-width: 305px;
+}
+
+.news__second-card-desc span {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18.2px;
+    letter-spacing: 0.1em;
+    text-align: left;
+}
+
+.news__second-card-desc h1 {
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 26.6px;
+    text-align: left;
+}
+
+.news__second-card-desc p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    text-align: left;
+}
+
+/* News Page */
+
+
+
+
+/* Adaptive */
+@media (max-width:1400px) {
+
+    .about__title,
+    .middle__service-primary h1 {
+        text-align: center;
+    }
+}
+
+@media(max-width:991px) {
+    .about__primary {
+        padding: 0 30px;
+    }
+
+    .lang__select {
+        justify-content: end;
+    }
+
+    .news__primary {
+        justify-content: center !important;
+    }
+
+    .news__second {
+        padding-bottom: 60px;
+    }
+
+    .news__page {
+        position: relative;
+    }
+
+    .news__btn {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        padding: 0 70px;
+    }
+}
+
+/* Adaptive */
