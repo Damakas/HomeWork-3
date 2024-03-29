@@ -109,6 +109,10 @@ body {
     color: #3D348B;
 }
 
+.middle__service-second a {
+    text-decoration: none;
+}
+
 .middle__service-second-card {
     width: 21em;
     min-height: 11em;
@@ -135,6 +139,12 @@ body {
 .middle__service-second-card a {
     text-decoration: none;
     color: #fafafa;
+}
+
+.middle__service-second-card-inner :hover {
+    transform: scale(1.1);
+    transition: all .3s;
+    box-shadow: 5px 5px 5px 2px rgba(1, 68, 120, 0.6);
 }
 
 /* Middle__Service */
