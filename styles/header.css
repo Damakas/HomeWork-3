@@ -2,11 +2,10 @@ header {
     font-family: "PT Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
-    height: 110px;
 }
 
 .container-nav {
-    padding: 44px 100px;
+    padding: 44px 12px;
 }
 
 .header__logo {
@@ -28,4 +27,17 @@ header {
     border: none;
     margin-left: 114px;
     font-weight: 700;
+}
+
+
+@media(hover:hover) {
+    .btn:hover {
+        background: #5DB7DE;
+    }
+}
+
+@media(hover:none) {
+    .btn:active {
+        background: #5DB7DE;
+    }
 }

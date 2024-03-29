@@ -43,11 +43,6 @@
     line-height: 19px;
     text-decoration: none;
     color: #ffff;
-    cursor: pointer;
-}
-
-.footer__nav a:hover {
-    color: #aaa;
 }
 
 .footer__law {
@@ -66,5 +61,17 @@
 @media(max-width:991px) {
     .footer__nav {
         text-align: center;
+    }
+}
+
+@media(hover:hover) {
+    .footer__nav a:hover {
+        color: #665fa7;
+    }
+}
+
+@media(hover:none) {
+    .footer__nav a:active {
+        color: #665fa7;
     }
 }
