@@ -2,6 +2,7 @@ body {
     font-family: "PT Sans", sans-serif;
 }
 
+/* Breadcrumbs */
 .nav__site {
     font-size: 13px;
     font-weight: 700;
@@ -21,6 +22,8 @@ body {
     text-decoration: none;
     color: black;
 }
+
+/* Breadcrumbs */
 
 .info__page {
     max-width: 855px;
