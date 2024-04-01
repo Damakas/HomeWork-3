@@ -20,14 +20,14 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-lg bg-white ">
-            <div class="container container-nav">
+            <div class="container container-nav d-flex justify-content-around">
                 <a class="navbar-brand header__logo" href="./index.html"><img src="./images/logo.png" alt="logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Переключатель навигации">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse pt-4" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-3">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="./index.html#about"
@@ -89,17 +89,19 @@
     </header>
 
     <section class="hero d-flex justify-content-center  align-items-center">
-        <div class="container row d-flex ">
-            <div class=" hero__inner d-flex row  justify-content-center pb-3   ">
-                <div class=" hero__inner-left col-6 col-xxl-6 ">
-                    <h1>Тавимский морской <br> порт VISMA</h1>
-                    <p>Vel posuere nibh odio placerat massa vel tellus tortor. Varius eget nunc scelerisque
-                        etiam
-                        felis
-                        facilisi ante viverra
-                        sem. Nunc eros elementum.</p>
-                    <div class="d-flex pt-5 about__company-btn">
-                        <button class=" d-flex gap-3 align-items-center ">
+        <div class="container row d-flex justify-content-center ">
+            <div class=" hero__inner d-flex row  justify-content-center pb-3">
+                <div class=" hero__inner-left col-6 col-xxl-6">
+                    <div class="hero__inner-left-disc">
+                        <h1>Тавимский морской <br> порт VISMA</h1>
+                        <p>Vel posuere nibh odio placerat massa vel tellus tortor. Varius eget nunc scelerisque
+                            etiam
+                            felis
+                            facilisi ante viverra
+                            sem. Nunc eros elementum.</p>
+                    </div>
+                    <div class="d-flex about__company-btn">
+                        <button class=" d-flex gap-3 align-items-center">
                             О КОМПАНИИ
                             <img src="./images/arrow_in_circle.png" alt="">
                         </button>
@@ -136,7 +138,7 @@
         </div>
     </section>
     <section class="container">
-        <div class="middle__service d-flex row" id="service">
+        <div class="middle__service d-flex row justify-content-center" id="service">
             <div class="middle__service-primary col-12 col-xxl-4 d-grid d-xxl-block justify-content-center pb-5 ">
                 <h1>Услуги</h1>
                 <div class="middle__service-primary-docs d-flex align-items-center">
@@ -201,7 +203,7 @@
             <div class="about__title ">
                 <h1>О компании</h1>
             </div>
-            <div class=" about row d-flex align-items-center  ">
+            <div class=" about row d-flex align-items-center">
                 <div class="about__primary col-xxl-6 ">
                     <p>Tristique orci consectetur sit felis. Sed ac auctor tellus lobortis. Enim non turpis nulla nec a
                         sapien sit amet
@@ -231,12 +233,12 @@
                         <li>Vivamus tincidunt non lectus odio magna semper odio risus.</li>
                     </ul>
                 </div>
-                <div class="about__second col-xxl-6 d-flex row justify-content-center">
-                    <div class="about__second-video pb-4">
+                <div class="about__second col-xxl-6 d-flex row pb-lg-5 ">
+                    <div class="about__second-video pb-4 d-flex row justify-content-center">
                         <div class='embed-container'><iframe src='https://www.youtube.com/embed/eu1w1AIlWdw'
                                 frameborder='0' allowfullscreen></iframe></div>
                     </div>
-                    <div class="d-flex justify-content-center">
+                    <div class="d-flex row justify-content-center">
                         <a href=" #" class="about__second-card">
                             <h1>Запрос ставки и условий погрузочно-разгрузочных работ</h1>
                             Рассчитайте моментально стоимость полных портовых услуг в порту VISMA
@@ -365,9 +367,9 @@
                         <p><a href="#">Информация</a></p>
                         <p><a href="#">Отчеты</a></p>
                     </div>
-                    <div class="col-lg-3 col-md-6 pt-5 footer__nav-card-4">
+                    <div class="col-lg-3 col-md-6 pt-5 footer__nav-card-4"">
                         <h1>О компании</h1>
-                        <p><a href="#">Порт сегодня</a></p>
+                        <p><a href=" #">Порт сегодня</a></p>
                         <p><a href="#">Характеристики порта</a></p>
                         <p><a href="#">История</a></p>
                         <p><a href="#">Дипломы и награды</a></p>

@@ -14,13 +14,12 @@ body {
 
 .hero__inner {
     justify-content: space-between;
-
 }
 
 .hero__inner-left {
     color: #fafafa;
     font-family: "PT Sans", sans-serif;
-    padding: 70px 0
+    padding-top: 70px;
 }
 
 .hero__inner-left h1 {
@@ -192,7 +191,7 @@ body {
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    gap: 30px;
     text-align: left;
     padding: 30px 35px;
     color: #fafafa;
@@ -215,7 +214,7 @@ body {
 /* About */
 /* News Page */
 .news__page {
-    padding-top: 150px;
+    padding-top: 100px;
 }
 
 .news__page a {
@@ -277,7 +276,9 @@ body {
 
 /* Adaptive */
 @media (max-width:1400px) {
-    .hero__inner-left {
+
+    .hero__inner-left,
+    .hero__inner-left-disc {
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -317,10 +318,34 @@ body {
     .news__btn {
         position: absolute;
         bottom: 0;
-        right: 0;
         padding: 0 70px;
     }
 }
+
+@media(max-width:768px) {
+    .about__company-btn {
+        padding-top: 70px;
+        white-space: nowrap;
+    }
+
+    .news__page {
+        padding-top: 50px;
+    }
+}
+
+@media(max-width:425px) {
+    .about__second-card {
+        gap: 0;
+        justify-content: space-between;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .about__primary {
+        text-align: center;
+    }
+}
+
 
 @media(hover:hover) {
     .about__company-btn button:hover {

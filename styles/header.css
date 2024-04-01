@@ -6,6 +6,7 @@ header {
 
 .container-nav {
     padding: 44px 12px;
+
 }
 
 .header__logo {
@@ -27,6 +28,12 @@ header {
     border: none;
     margin-left: 114px;
     font-weight: 700;
+}
+
+@media(max-width:425px) {
+    .container-nav {
+        padding: 22px 12px;
+    }
 }
 
 
